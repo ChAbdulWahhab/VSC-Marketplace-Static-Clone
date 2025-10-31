@@ -1,0 +1,42 @@
+# ======================================
+# 🧩 Tailwind CSS Project .gitignore
+# ======================================
+
+# Node dependencies (installed via npm)
+node_modules/
+
+# 🔧 Tailwind's generated CSS file
+# We don't commit compiled CSS — it’s built from input.css
+output.css
+
+# 🧠 Optional: ignore other build outputs (if using dist or public folder)
+dist/
+build/
+
+# ⚙️ PostCSS + Tailwind cache
+.vite/
+.pnpm-store/
+.tmp/
+
+# ⚡ Environment config files (if you ever add them)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 🪵 Log files from npm or other tools
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 💻 OS and editor junk
+.DS_Store
+Thumbs.db
+
+# 🧑‍💻 Editor-specific settings (personal stuff)
+.vscode/
+.idea/
+*.swp

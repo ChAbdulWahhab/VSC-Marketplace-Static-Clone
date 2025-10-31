@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tailwind Demo</title>
+</head>
+
+<body class="bg-[#F1F1F1]">
+    <!-- Top Nav -->
+    <div class="navbar flex bg-black text-white py-1.5 px-96 space-x-2 justify-between">
+        <div class="cursor-pointer">
+            <a href="index.html">
+                <img class="w-4 h-4 inline" src="./images/code-stable-white.png" alt="">
+                <span class="text-sm">Visual Studio</span>
+                | Marketplace
+            </a>
+        </div>
+        <div class="flex gap-4">
+            <div class="">Signin</div>
+            <div><i class="bi bi-search"></i></div>
+        </div>
+    </div>
+
+    <!-- Second Nav -->
+    <div class="px-96 bg-white border-b flex align-center justify-between">
+        <div class="flex">
+            <div class="font-semibold py-3 px-6 hover:bg-gray-200 hover:cursor-pointer">Visual Studio</div>
+            <div class="font-semibold py-3 px-6 hover:bg-[#b10d46] hover:cursor-pointer active">Visual Studio Code</div>
+            <div class="font-semibold py-3 px-6 hover:bg-gray-200 hover:cursor-pointer">Azure Devops</div>
+            <div class="font-semibold py-3 px-6 hover:bg-gray-200 hover:cursor-pointer">Subscription</div>
+        </div>
+        <div class="flex">
+            <div class="py-3 px-2.5"><a class="hover:underline text-blue-600" href="">Create your own</a></div>
+            <div class="py-3 px-2.5"><a class="hover:underline text-blue-600" href="">Publish exetnsion</a></div>
+        </div>
+    </div>
+
+    <div style="padding: 50px;" class="main h-62 flex justify-center">
+        <div class="flex flex-col gap-4">
+            <h1 class="text-4xl align-center text-center">Extensions for Visual Studio Code</h1>
+            <div class="border-[#D4D4D5] search hover:shadow-lg border-r-0 bg-white flex border justify-between">
+                <input style="width: 700px;" class="border-none text-lg px-4" type="search"
+                    placeholder="Search Visual Studio Code exetnsions">
+                <div class="cursor-pointer hover:bg-[#b10d46] icon active p-3 px-4">
+                    <i class="bi bi-search"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured -->
+    <div class="px-72 text-xl font-semibold py-5">Featured</div>
+    <div class="flex justify-center items-center">
+        <div class="cards flex flex-wrap justify-center gap-4">
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Most Popular -->
+    <div class="px-72 text-xl font-semibold py-5">Most Popular</div>
+    <div class="flex justify-center items-center">
+        <div class="cards flex flex-wrap justify-center gap-4 ">
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Recently Added -->
+    <div class="px-72 text-xl font-semibold py-5">Recently Added</div>
+    <div class="flex justify-center items-center">
+        <div class="cards flex flex-wrap justify-center gap-4 ">
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+            <div
+                class="card cursor-pointer flex flex-col justify-between items-center border border-gray-300 p-5 w-52 h-64 bg-white shadow-sm hover:shadow-lg transition-shadow">
+
+                <div class="img flex justify-center items-center w-16 h-16 mb-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node"
+                        class="w-full h-full object-contain">
+                </div>
+
+                <div class="title text-lg font-semibold text-gray-800 mb-1">NodeJS</div>
+
+                <div class="flex justify-between items-center w-full text-sm text-gray-600">
+                    <div class="name-down">node js</div>
+                    <div class="flex items-center gap-1">
+                        <i class="bi bi-download"></i> 3.9M
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1 w-full text-blue-600 text-sm">
+                    <span>nodejs.com</span>
+                    <i class="bi bi-patch-check-fill text-blue-500"></i>
+                </div>
+
+                <div class="flex justify-between items-center w-full mt-2">
+                    <div class="stars flex text-[#C0442E] text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="free-paid text-xs font-semibold text-green-600">FREE</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="px-72 text-lg font-medium pt-10 pb-4">Filter by category / collection</div>
+
+    <div class="px-72 flex justify-between w-full">
+        <div class="flex flex-col gap-2 flex-1">
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">AI</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Azure</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Chat</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Data Science</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Databases</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Debuggers</div>
+        </div>
+
+        <div class="flex flex-col gap-2 flex-1 space-x-2">
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Education</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Extension Packs</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Formatters</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Keymaps</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Language Model Tools</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Language Packs</div>
+        </div>
+
+        <div class="flex flex-col gap-2 flex-1 space-x-2">
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Linters</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Machine Learning</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Notebooks</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Programming Languages</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">SCM Providers</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Snippets</div>
+        </div>
+
+        <div class="flex flex-col gap-2 flex-1 space-x-2">
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Testing</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Themes</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Visualization</div>
+            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Other</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
