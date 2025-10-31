@@ -5,10 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/png" href="/images/sys.png">
     <link rel="stylesheet" href="./output.css" />
     <link rel="stylesheet" href="./src/input.css">
     <link rel="stylesheet" href="style.css">
-    <title>Tailwind Demo</title>
+    <title>Systemset Studio | Marketplace</title>
 </head>
 
 <body class="bg-[#F1F1F1]">
@@ -16,8 +17,8 @@
     <div class="navbar flex bg-black text-white py-1.5 px-96 space-x-2 justify-between">
         <div class="cursor-pointer">
             <a href="index.html">
-                <img class="w-4 h-4 inline" src="./images/code-stable-white.png" alt="">
-                <span class="text-sm">Visual Studio</span>
+                <img class="w-4 h-4 inline" src="./images/sys.png" alt="Systemset Logo">
+                <span class="text-sm">Systemset Studio</span>
                 | Marketplace
             </a>
         </div>
@@ -30,9 +31,9 @@
     <!-- Second Nav -->
     <div class="px-96 bg-white border-b flex align-center justify-between">
         <div class="flex">
-            <div class="font-semibold py-3 px-6 hover:bg-gray-200 hover:cursor-pointer">Visual Studio</div>
-            <div class="font-semibold py-3 px-6 hover:bg-[#b10d46] hover:cursor-pointer active">Visual Studio Code</div>
-            <div class="font-semibold py-3 px-6 hover:bg-gray-200 hover:cursor-pointer">Azure Devops</div>
+            <div class="font-semibold py-3 px-6 hover:bg-gray-200 hover:cursor-pointer">Systemset Studio</div>
+            <div class="font-semibold py-3 px-6 hover:bg-[#0d9428] hover:cursor-pointer active">Systemset Code Studio</div>
+            <div class="font-semibold py-3 px-6 hover:bg-gray-200 hover:cursor-pointer">Systemset CloudOps</div>
             <div class="font-semibold py-3 px-6 hover:bg-gray-200 hover:cursor-pointer">Subscription</div>
         </div>
         <div class="flex">
@@ -43,11 +44,11 @@
 
     <div style="padding: 50px;" class="main h-62 flex justify-center">
         <div class="flex flex-col gap-4">
-            <h1 class="text-4xl align-center text-center">Extensions for Visual Studio Code</h1>
+            <h1 class="text-4xl align-center text-center">Extensions for Systemset Code Studio</h1>
             <div class="border-[#D4D4D5] search hover:shadow-lg border-r-0 bg-white flex border justify-between">
                 <input style="width: 700px;" class="border-none text-lg px-4" type="search"
-                    placeholder="Search Visual Studio Code exetnsions">
-                <div class="cursor-pointer hover:bg-[#b10d46] icon active p-3 px-4">
+                    placeholder="Search Systemset Code Studio exetnsions">
+                <div class="cursor-pointer hover:bg-[#0d9428] icon active p-3 px-4">
                     <i class="bi bi-search"></i>
                 </div>
             </div>
@@ -710,41 +711,89 @@
 
     <div class="px-72 text-lg font-medium pt-10 pb-4">Filter by category / collection</div>
 
-    <div class="px-72 flex justify-between w-full">
-        <div class="flex flex-col gap-2 flex-1">
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">AI</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Azure</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Chat</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Data Science</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Databases</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Debuggers</div>
+    <div class="grid grid-cols-4 gap-3 px-72">
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">AI</div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Education
+        </div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Linters</div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Testing</div>
+
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Azure</div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Extension
+            Packs</div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Machine
+            Learning</div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Themes</div>
+
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Chat</div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Formatters
+        </div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Notebooks
+        </div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Visualization
         </div>
 
-        <div class="flex flex-col gap-2 flex-1 space-x-2">
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Education</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Extension Packs</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Formatters</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Keymaps</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Language Model Tools</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Language Packs</div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Data Science
         </div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Keymaps</div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Programming
+            Languages</div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Other</div>
 
-        <div class="flex flex-col gap-2 flex-1 space-x-2">
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Linters</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Machine Learning</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Notebooks</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Programming Languages</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">SCM Providers</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Snippets</div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Databases
         </div>
-
-        <div class="flex flex-col gap-2 flex-1 space-x-2">
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Testing</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Themes</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Visualization</div>
-            <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Other</div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Language
+            Model Tools</div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">SCM Providers
+        </div>
+        <div class="py-2 px-5 text-center bg-[#E8E8E8] hover:underline hover:text-blue-500 cursor-pointer">Snippets
         </div>
     </div>
+
+    <footer class="px-72 py-10 text-sm text-gray-700 bg-white mt-16">
+        <div class="flex justify-between">
+            <div class="flex space-x-16">
+                <div>
+                    <h3 class="font-semibold mb-2">Products</h3>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:underline hover:text-blue-600">Systemset Studio</a></li>
+                        <li><a href="#" class="hover:underline hover:text-blue-600">Systemset Code Studio</a></li>
+                        <li><a href="#" class="hover:underline hover:text-blue-600">Systemset CloudOps</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold mb-2">Related Sites</h3>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:underline hover:text-blue-600">My Systemset Studio</a></li>
+                        <li><a href="#" class="hover:underline hover:text-blue-600">Manage Systemset Studio</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold mb-2">Support</h3>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:underline hover:text-blue-600">FAQ</a></li>
+                        <li><a href="#" class="hover:underline hover:text-blue-600">Feedback</a></li>
+                        <li><a href="#" class="hover:underline hover:text-blue-600">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-end justify-end text-right text-gray-600 text-sm">
+                <div class="space-x-4 mb-1">
+                    <a href="#" class="hover:underline hover:text-blue-600">Contact us</a>
+                    <a href="#" class="hover:underline hover:text-blue-600">Jobs</a>
+                    <a href="#" class="hover:underline hover:text-blue-600">Privacy</a>
+                    <a href="#" class="hover:underline hover:text-blue-600">Terms of use</a>
+                    <a href="#" class="hover:underline hover:text-blue-600">Trademarks</a>
+                </div>
+                <div>
+                    © 2025 <span class="font-semibold text-gray-800">Systemset Co</span>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 </body>

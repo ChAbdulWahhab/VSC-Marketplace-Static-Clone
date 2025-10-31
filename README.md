@@ -196,5 +196,3 @@ no frameworks, just HTML, CSS, and Tailwind power 💪
 | `npx vite`                                                   | (Optional) Start local server |
 
 ```
-
----
